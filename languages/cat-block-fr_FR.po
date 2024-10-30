@@ -1,0 +1,249 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cat Block v2.6.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-06-03 13:58:04+0000\n"
+"Last-Translator: cvmh <nicolas@cvmhsolutions.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: cat-block.php:0
+#@ cat-block
+msgid "Cat Block"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: cat-block.php:0
+#@ cat-block
+msgid "http://www.agence-web-cvmh.fr"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: cat-block.php:0
+#@ cat-block
+msgid "Adds a block (widget or shortcode), which scrolls through the posts in a category."
+msgstr "Ajoute un bloc (widget ou shortcode), qui affiche les articles d'une catégorie."
+
+#. translators: plugin header field 'Author'
+#: cat-block.php:0
+#@ cat-block
+msgid "CVMH solutions"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: cat-block.php:0
+#@ cat-block
+msgid "2.6.2"
+msgstr ""
+
+#: includes/form.php:18
+#@ cat-block
+msgid "General"
+msgstr "Général"
+
+#: includes/form.php:19
+#@ cat-block
+msgid "Posts"
+msgstr "Types de contenu"
+
+#: includes/form.php:20
+#@ cat-block
+msgid "Thumbnail"
+msgstr "Miniature"
+
+#: includes/form.php:21
+#@ cat-block
+msgid "Content"
+msgstr "Bloc"
+
+#: includes/form.php:22
+#: includes/form.php:188
+#@ cat-block
+msgid "Slideshow"
+msgstr "Diaporama"
+
+#: includes/form.php:29
+#@ cat-block
+msgid "Title:"
+msgstr "Titre :"
+
+#: includes/form.php:37
+#@ cat-block
+msgid "Introduction:"
+msgstr "Introduction :"
+
+#: includes/form.php:44
+#@ cat-block
+msgid "Post Type:"
+msgstr "Type de contenu :"
+
+#: includes/form.php:52
+#@ cat-block
+msgid "Category:"
+msgstr "Catégorie :"
+
+#: includes/form.php:65
+#@ cat-block
+msgid "Number of posts to show:"
+msgstr "Nombre de contenus à afficher :"
+
+#: includes/form.php:70
+#@ cat-block
+msgid "to show all posts."
+msgstr "pour afficher tous les contenus."
+
+#: includes/form.php:75
+#@ cat-block
+msgid "Display \"all posts\" link"
+msgstr "Afficher le lien \\\"tous les articles\\\""
+
+#: includes/form.php:77
+#@ cat-block
+msgid "Not displayed if more than one category is selected."
+msgstr "Non affiché si plus d'une catégorie sélectionnée."
+
+#: includes/form.php:80
+#@ cat-block
+msgid "\"All posts\" link text:"
+msgstr "Texte du lien \\\"tous les articles\\\" :"
+
+#: includes/form.php:92
+#@ cat-block
+msgid "Display thumbnail"
+msgstr "Afficher la miniature"
+
+#: includes/form.php:96
+#@ cat-block
+msgid "Thumbnail size:"
+msgstr "Taille de la miniature :"
+
+#: includes/form.php:110
+#@ cat-block
+msgid "Display post title"
+msgstr "Afficher le titre du contenu"
+
+#: includes/form.php:114
+#@ cat-block
+msgid "Title length:"
+msgstr "Longueur du titre :"
+
+#: includes/form.php:119
+#@ cat-block
+msgid "Number of characters."
+msgstr "Nombre de caractères."
+
+#: includes/form.php:122
+#@ cat-block
+msgid "Title tag:"
+msgstr "Balise titre :"
+
+#: includes/form.php:127
+#@ cat-block
+msgid "eg. h3 for &lt;h3&gt;."
+msgstr "ex. h3 pour &lt;h3&gt;."
+
+#: includes/form.php:132
+#@ cat-block
+msgid "Display post excerpt"
+msgstr "Afficher l'extrait"
+
+#: includes/form.php:136
+#@ cat-block
+msgid "Excerpt length:"
+msgstr "Longueur de l'extrait :"
+
+#: includes/form.php:141
+#@ cat-block
+msgid "Number of words."
+msgstr "Nombre de mots."
+
+#: includes/form.php:146
+#@ cat-block
+msgid "Display date"
+msgstr "Afficher la date"
+
+#: includes/form.php:150
+#@ cat-block
+msgid "Date format:"
+msgstr "Format de la date :"
+
+#: includes/form.php:155
+#@ cat-block
+msgid "See <a href=\"https://codex.wordpress.org/Formatting_Date_and_Time\" target=\"_blank\">Formatting Date and Time</a> for some of the formats available."
+msgstr "Consultez <a href=\"https://codex.wordpress.org/Formatting_Date_and_Time\" target=\"_blank\">la page sur le formattage des dates</a> pour les formats possibles."
+
+#: includes/form.php:160
+#@ cat-block
+msgid "Display \"read more\" link"
+msgstr "Afficher le lien \\\"lire la suite\\\""
+
+#: includes/form.php:164
+#@ cat-block
+msgid "\"Read more\" link tag:"
+msgstr "Balise du lien :"
+
+#: includes/form.php:168
+#@ cat-block
+msgid "Anchor"
+msgstr "Ancre"
+
+#: includes/form.php:172
+#@ cat-block
+msgid "Button"
+msgstr "Bouton"
+
+#: includes/form.php:176
+#@ cat-block
+msgid "\"Read more\" link text:"
+msgstr "Texte du lien :"
+
+#: includes/form.php:192
+#@ cat-block
+msgid "Duration:"
+msgstr "Durée :"
+
+#: includes/form.php:197
+#@ cat-block
+msgid "Slide duration in ms"
+msgstr "Duré d'affichage d'une diapositive en ms"
+
+#: includes/form.php:202
+#@ cat-block
+msgid "Show navigation"
+msgstr "Afficher la navigation"
+
+#: includes/functions.php:27
+#@ cat-block
+msgid "Category block"
+msgstr "Bloc catégorie"
+
+#: includes/functions.php:32
+#@ cat-block
+msgid "See all"
+msgstr "Tous les articles"
+
+#: includes/functions.php:44
+#@ cat-block
+msgid "Read more"
+msgstr "Lire la suite"
+
+#: includes/widget.php:14
+#@ cat-block
+msgid "A block which lists the posts in a category."
+msgstr "Un bloc qui liste les contenus d'une catégorie."
+
